@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif
+}
+.showcase{
+    display:flex;
+    background-image: url('../images/top-banner.png');
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+.dream-big{
+    display:flex;
+    background-image: url('../images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-bottom: 100px;
+}
+.showcase-box,.dream-big-box{
+    width:40%;
+    margin:0 5%;
+}
+.showcase-welcome-massage,.dream-big-welcome-massage{
+    padding:10px 20px;
+}
+.showcase-welcome-massage h1,.dream-big-welcome-massage h1{
+    font-size:50px;
+    line-height:103px;
+}
+.showcase-welcome-massage span{
+    color:orange;
+}
+.showcase-welcome-massage h2,.dream-big-welcome-massage h2{
+    font-size:20px;
+}
+.showcase-welcome-massage p,.dream-big-welcome-massage p{
+    color:dimgray;
+}
+.custom-link-button{
+    padding:10px 40px;
+    border-radius: 10px;;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    color:white;
+}
+.showcase-box img,.dream-big img{
+    width:100%;
+}
+.experiences h2{
+    font-size:40px;
+}
+.experiences-list{
+    display:flex;
+    padding:0 5%;
+    justify-content: space-between;
+}
+.experiences-list-box{
+    width:37%;
+    padding:5%;
+    box-shadow: 5px 7px 40px gray;
+}
+.custom-gradient-border-orange{
+    border-image:
+}
+.custom-gradient-border-blue{
+
+}
